@@ -1,0 +1,29 @@
+{
+  "compact": true,
+  "presets": [
+    [
+      "env",
+      {
+        "modules": false,
+        "targets": {
+          "browsers": [
+            "last 2 versions",
+            "ie >= 11"
+          ]
+        }
+      }
+    ]
+  ],
+  "plugins": [
+    "add-filehash",
+    "transform-object-rest-spread",
+    [
+      "transform-imports",
+      {
+        "vuetify": {
+          "transform": "vuetify/src/components/${member}"
+        }
+      }
+    ]
+  ]
+}

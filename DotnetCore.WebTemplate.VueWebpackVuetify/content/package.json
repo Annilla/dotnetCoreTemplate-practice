@@ -1,0 +1,44 @@
+{
+  "name": "CustomProjName",
+  "description": "A Vue.js project",
+  "version": "1.0.0",
+  "author": "Anny Chang <AnnyChang@kingstono365.onmicrosoft.com>",
+  "scripts": {
+    "hmr": "cross-env ASPNETCORE_ENVIRONMENT=Development NODE_ENV=development dotnet run",
+    "build:Debug": "webpack --progress --hide-modules --config webpack.debug.js",
+    "build:QAS": "webpack --progress --hide-modules --config webpack.qas.js",
+    "build:Release": "webpack --progress --hide-modules --config webpack.release.js"
+  },
+  "dependencies": {
+    "axios": "^0.17.1",
+    "babel-polyfill": "^6.26.0",
+    "kingston-material-ui-vue-webpack-project": "2018.9.191",
+    "vue": "^2.5.16",
+    "vue-router": "^3.0.1",
+    "vuetify": "1.2.3",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "aspnet-webpack": "^2.0.1",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-add-filehash": "^6.9.4",
+    "babel-plugin-transform-imports": "^1.4.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "cross-env": "^5.1.0",
+    "css-loader": "^0.28.7",
+    "extract-text-webpack-plugin": "^3.0.1",
+    "file-loader": "1.1.11",
+    "optimize-css-assets-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.19.1",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.1",
+    "vue-loader": "^13.6.2",
+    "vue-template-compiler": "^2.5.16",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.2",
+    "webpack-hot-middleware": "^2.21.0",
+    "webpack-merge": "^4.1.3"
+  }
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>DotnetCore.WebTemplate.VueWebpackVuetify</id>
+    <version>1.0.0</version>
+    <description>
+      Creates the SPA Vuetify Web with Vue and Webpack.
+    </description>
+    <authors>Anny Chang</authors>
+    <packageTypes>
+      <packageType name="Template" />
+    </packageTypes>
+  </metadata>
+</package>
